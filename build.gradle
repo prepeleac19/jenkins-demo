@@ -9,7 +9,7 @@ project.version = "1.0"
 
 docker {
     name "${project.name}:${project.version}"
-    files "plugins.txt"
+    files "plugins.txt", "seedJob.xml"
 }
 
 dockerRun {
